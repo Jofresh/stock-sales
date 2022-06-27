@@ -7,3 +7,6 @@ We want to remove 1 product\
 
 ### 💥 Challenge
 In JavaScript, use regular expressions and array/object methods to parse the input.
+
+---
+[Demo in Codepen](https://codepen.io/jofresh/pen/LYdPQqM)
