@@ -4,7 +4,7 @@ const regex = /(\d+)\s*(\w+)/g;
 const stock = text.match(regex)
 	.reduce((acc, cur) => {
 		let [quantity, product] = cur.split(' ')
-    	if (product.slice(-1) === 's') product = product.slice(0, product.length - 1)
+    	if (product.slice(-1) === 's') product = product.slice(0, -1)
     	acc[product] = (acc[product] || 0) + parseInt(quantity)
     	return acc
 	}, {})
